@@ -1,20 +1,4 @@
 # -*- coding: utf-8 -*-
-'''
-描述：案例-基于自动K值的KMeans广告效果聚类分析
-时间：2017-11-1
-作者：宋天龙（Tony Song）
-程序开发环境：win 64位
-Python版本：32位 2.7.12
-python IDE：PyCharm
-依赖库：sys、numpy、pandas、sklearn
-程序输入：ad_performance.txt
-程序输出：打印输出不同聚类类别的信息
-注意：Python的工作目录当前文件夹目录，如果不是请使用如下方法切换：
-    点击PyCharm底部调试栏中的Python Console，如果按照本书的正常安装部署会调用iPython交互窗口；在打开的交互环境中输入cd [路径]。
-    例如，在windows环境下输入：
-    cd D:\4_附件\chapter7
-
-'''
 #step1 导入库
 import pandas as pd
 import numpy as np
